@@ -1,6 +1,6 @@
 // script.js
 
-const ramosPorAnio = {
+const ramosPorAño = {
   primeraño: [
     { nombre: "Epistemología De La Cs. Sociales", requisitos: [] },
     { nombre: "Teoría Del Estado", requisitos: [] },
