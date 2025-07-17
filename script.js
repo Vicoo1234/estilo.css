@@ -1,7 +1,7 @@
 // script.js
 
 const ramosPorAnio = {
-  primer: [
+  primeraño: [
     { nombre: "Epistemología De La Cs. Sociales", requisitos: [] },
     { nombre: "Teoría Del Estado", requisitos: [] },
     { nombre: "Historia Del Derecho", requisitos: [] },
@@ -10,7 +10,7 @@ const ramosPorAnio = {
     { nombre: "Instituciones De Derecho Privado", requisitos: [] },
     { nombre: "Taller De Escritura Jurídica", requisitos: [] },
   ],
-  segundo: [
+  segundoaaño: [
     { nombre: "Historia Social Y Política De Las Instituciones - Americana Y Argentina-", requisitos: ["Teoría Del Estado"] },
     { nombre: "Derechos Humanos Y Garantías", requisitos: ["Derecho Constitucional"] },
     { nombre: "Economía", requisitos: [] },
@@ -21,7 +21,7 @@ const ramosPorAnio = {
     { nombre: "Taller De Oratoria", requisitos: [] },
     { nombre: "Taller De Argumentación Jurídica", requisitos: ["Introducción Al Derecho"] },
   ],
-  tercero: [
+  terceroaño: [
     { nombre: "Teoría De La Responsabilidad Penal", requisitos: ["D. Penal: Parte General Y Teoría Del Hecho Punible"] },
     { nombre: "Derecho Penal Parte Especial", requisitos: ["Teoría De La Responsabilidad Penal"] },
     { nombre: "Derecho Internacional Público", requisitos: ["Derechos Humanos Y Garantías"] },
@@ -33,7 +33,7 @@ const ramosPorAnio = {
     { nombre: "Instituciones De Derecho Administrativo", requisitos: ["Derecho Constitucional", "Derecho De Daños", "Economía"] },
     { nombre: "Taller De Litigio En Casos De Interés Público", requisitos: ["Derechos Humanos Y Garantías", "Taller De Oratoria", "Taller De Argumentación Jurídica"] },
   ],
-  cuarto: [
+  cuartoaño: [
     { nombre: "Derechos Reales E Intelectuales", requisitos: ["Derecho De Los Contratos Parte Especial"] },
     { nombre: "Derecho Procesal Penal", requisitos: ["Teoría General Del Proceso", "Teoría De La Responsabilidad Penal"] },
     { nombre: "Derecho Laboral Y De La Seguridad Social", requisitos: ["Derecho De Los Contratos Parte General"] },
@@ -45,7 +45,7 @@ const ramosPorAnio = {
     { nombre: "Metodología De La Investigación Científica", requisitos: ["Epistemología De La Cs. Sociales"] },
     { nombre: "Taller De Estrategia Del Caso Y De La Prueba", requisitos: ["Derecho Procesal Civil Y Comercial", "Teoría De La Responsabilidad Penal"] },
   ],
-  quinto: [
+  quintoaño: [
     { nombre: "Derecho De Familias", requisitos: ["Derechos Reales E Intelectuales"] },
     { nombre: "Derecho Sucesorio", requisitos: ["Derecho De Familias"] },
     { nombre: "Derecho Concursal", requisitos: ["Personas Jurídicas", "Derecho Procesal Civil Y Comercial", "Derecho Laboral Y De La Seguridad Social", "Derechos Reales E Intelectuales"] },
